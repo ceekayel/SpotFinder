@@ -1,0 +1,369 @@
+Templatic theme - Directory Child  Theme - Spotfinder (version : 1.0) 26th August 2014
+=========================================================================================
+
+19th June 2015 (version 1.0.7)
+-----------------------------------------------------------------------------------------
+Improved : Removed unnecessary image sizes
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix - Double scroll bars issues on detail page.
+      All in one map marker was not showing.
+      All in One Map Margin Issue.
+      Classified Inner Page Sorting Option Design Issue.
+      Submit Listing Page Checkbox Design Issue.
+      Property Inner Page Featured Tag & Design Issue.
+      Category Page Grid View Design Issue.
+-----------------------------------------------------------------------------------------
+/theme-style.css
+
+-----------------------------------------------------------------------------------------
+Fix - Map was not showing on search page.
+      Extra space on header on edit profile page.
+-----------------------------------------------------------------------------------------
+/footer.php
+
+-----------------------------------------------------------------------------------------
+Fix - Sidebar issue of classified.
+-----------------------------------------------------------------------------------------
+/archive-classified.php
+/functions.php
+/single-classified.php
+/taxonomy-classifiedscategory.php
+
+-----------------------------------------------------------------------------------------
+Fix - Address was not showing on listing preview page.
+      Custom fields was not showing on preview page.
+      Custom fileds was showing even it was not selected to shown as detail page.
+-----------------------------------------------------------------------------------------
+/tevolution-single-listing-preview.php
+
+-----------------------------------------------------------------------------------------
+Fix - when activate tevolution plugin, that time install sample data button is showing. 
+      Even if i did not activate tevoultion-directoty plugin.
+-----------------------------------------------------------------------------------------
+/functions/auto_install/auto_install.php
+
+-----------------------------------------------------------------------------------------
+Improved : Translation
+-----------------------------------------------------------------------------------------
+/languages/en_US.mo
+/languages/en_US.po
+
+-----------------------------------------------------------------------------------------
+
+25th April 2015 (Version 1.0.6)
+-----------------------------------------------------------------------------------------
+Fix - WordPress 4.2 & Security related changes.
+-----------------------------------------------------------------------------------------
+/templatic_login.php
+
+-----------------------------------------------------------------------------------------
+Fix - Responsive view sidebar break.
+      Two Columns, Right sidebar break design break.
+      Category page map popup listing design break.
+      File upload z-index issue.
+      Cluster pop up on category page size not proper.
+      Detail page and category page apply jquery height.
+      Responsive view detail page Get Directions search field not showing and 1200px width header was not showing.
+      Nearest city loading design issue.
+      Homepage grid box design break in ipad.
+      Map was not showing on archive pages.
+      Design issue on home page banner area if i placed a map on home page.
+      Map was not moving.
+      Advanced search widget responsiview design issue.
+      Big gap between the menu and the top of the page design issue.
+      Hide Adminbar And Add logout Class for remove blank space.
+-----------------------------------------------------------------------------------------
+/theme-style.css
+/footer.php
+
+-----------------------------------------------------------------------------------------
+Fix - Map was not showing on detail page.
+      Advertisement show on related post listing.
+      Verification link in mail gives a blank page and user does not get.
+      W3C validation realted changes.
+      Archive page for aditional post type was not showing properly.
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix - Preview page pop up image gallery was not showing.
+-----------------------------------------------------------------------------------------
+/single-listing-preview.php
+
+-----------------------------------------------------------------------------------------
+Fix - Add height for all in one map page to remove extra space from bottom.
+-----------------------------------------------------------------------------------------
+/page-templates/full-page-map.php
+
+-----------------------------------------------------------------------------------------
+Fix - Homepage above footer slider design break.
+-----------------------------------------------------------------------------------------
+/theme-mobile-style.css
+
+-----------------------------------------------------------------------------------------
+Fix - Related products not working with option "distance-aware related posts option".
+-----------------------------------------------------------------------------------------
+/single-listing.php
+/single-event.php
+/single-property.php
+
+-----------------------------------------------------------------------------------------
+
+30th January 2015 (Version 1.0.5)
+-----------------------------------------------------------------------------------------
+Fix.: Direction on detail page option
+-----------------------------------------------------------------------------------------
+/functions.php
+/single-listing.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Translation
+-----------------------------------------------------------------------------------------
+/directory-listing-single-content.php
+/event-listing-single-content.php
+/languages/en_US.po
+/languages/en_US.mo
+/languages/spotfinder.pot
+
+-----------------------------------------------------------------------------------------
+Fix.: Login-Logout links with Mega menu 
+-----------------------------------------------------------------------------------------
+/functions/admin-style.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Street map and instant search ID in auto install
+-----------------------------------------------------------------------------------------
+/functions/auto_install/auto_install_data.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Detail page map
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Map and other style related issues
+-----------------------------------------------------------------------------------------
+/tevolution-single-property-preview.php
+/theme-style.css
+/theme-mobile-style.css
+
+
+25th December 2014 (Version 1.0.4)
+-----------------------------------------------------------------------------------------
+Fix.: Remove space after header on full width map page
+-----------------------------------------------------------------------------------------
+/page-templates/full-page-map.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Photos and video tab text not showing while edit property.
+-----------------------------------------------------------------------------------------
+/tevolution-single-property-preview.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Meta tag home page with Yoast SEO plugin
+-----------------------------------------------------------------------------------------
+/header.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Display custom fields headting type wise
+-----------------------------------------------------------------------------------------
+/event-listing-single-content.php
+/single-listing.php
+/directory-listing-single-content.php
+/single-property.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Scroll Bars on Instant Search
+-----------------------------------------------------------------------------------------
+/footer.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Hide Detail page settings of tevolution general settings
+-----------------------------------------------------------------------------------------
+/functions.php
+
+-----------------------------------------------------------------------------------------
+Fix.: Instant Search and other Design fixes/Improvements
+-----------------------------------------------------------------------------------------
+/theme-style.css
+/functions/admin-style.php
+/theme-mobile-style.css
+
+-----------------------------------------------------------------------------------------
+Fix.: Default template for additional post type
+-----------------------------------------------------------------------------------------
+/functions.php
+
+
+11th December 2014 (Version 1.0.3)
+----------------------------------------------------------------------------------------
+Add - Login,Registartion link in spotfinder menu( Secondary navigation )
+----------------------------------------------------------------------------------
+functions.php
+
+----------------------------------------------------------------------------------------
+Fix - When set map on home page remove the background from header area
+----------------------------------------------------------------------------------
+header.php
+
+----------------------------------------------------------------------------------------
+Fix - With property post type some label design was massed up.
+----------------------------------------------------------------------------------
+header.php
+theme-style.css
+
+----------------------------------------------------------------------------------------
+Fix - carousel slider on home page arrow was not proper, mega menu design was not proper
+----------------------------------------------------------------------------------
+theme-style.css
+
+----------------------------------------------------------------------------------------
+Fix - On Menu hover white color was display in IE.
+----------------------------------------------------------------------------------
+functions/admin -style.css
+
+----------------------------------------------------------------------------------------
+Fix - map marker not shows on ipad
+----------------------------------------------------------------------------------------
+page-templates/full-page-map.php
+
+----------------------------------------------------------------------------------------
+Fix - In responsive header icon was not display
+----------------------------------------------------------------------------------------
+theme-mobile-style.css
+
+----------------------------------------------------------------------------------------
+Fix - In I-pad smooth scroll was not work
+----------------------------------------------------------------------------------------
+theme-style.css
+
+----------------------------------------------------------------------------------------
+Fix - remove more listing image anchor tag for slider not working IE 11
+----------------------------------------------------------------------------------------
+single-listing.php
+
+----------------------------------------------------------------------------------------
+Fix - In listing detail page slider last image was cutt-off
+----------------------------------------------------------------------------------------
+functions.php
+theme-style.css
+
+----------------------------------------------------------------------------------------
+fix - In tevolution category page settings some options was not stay saved.
+----------------------------------------------------------------------------------------
+functions.php
+
+11th November 2014 (Version 1.0.2)
+----------------------------------------------------------------------------------------
+Fix - In mobile view city selector was not display
+----------------------------------------------------------------------------------
+header.php
+theme-mobile-style.css
+theme-style.css
+
+Fix - Color Customizer some color settings was not work.
+-------------------------------------------------------------------------------------
+header.php
+function/admin-style.php
+
+Fix - Auto install box was display in some unwanted area.
+-------------------------------------------------------------------------------------
+functions/auto-install/auto-install.php
+
+Fix - When place Instant search in different area design was break.
+-------------------------------------------------------------------------------------
+theme-style.css
+
+Fixed - display city selector on all in one page template
+-------------------------------------------------------------------------------------
+page-templates/full-page-map.php
+
+Fixed - Listing timing fields not display properly
+-----------------------------------------------------------------------
+single-listing.php
+
+28th October 2014 (Version 1.0.1)
+-----------------------------------------------------------------------------------------
+New added files
+-----------------------------------------------------------------------------------------
+theme-mobile-style.css
+theme-style.css
+
+taxonomy-listingtags.php
+taxonomy-etags.php
+taxonomy-ptags.php
+functions/widget.php
+tevolution-single-event-preview.php
+tevolution-single-listing-preview.php
+tevolution-single-property-preview.php
+page-templates/front-page.php
+
+-----------------------------------------------------------------------------------------
+Removed files
+-----------------------------------------------------------------------------------------
+functions/google_map_listing_widget.php
+front-page.php
+single-event-preview.php
+single-listing-preview.php
+
+-----------------------------------------------------------------------------------------
+Fix: header image could not be change
+-----------------------------------------------------------------------------------------
+functions.php
+
+-----------------------------------------------------------------------------------------
+Changed structure for comments sectoion
+-----------------------------------------------------------------------------------------
+comment.php
+
+-----------------------------------------------------------------------------------------
+Changed action for related posts on detail page
+-----------------------------------------------------------------------------------------
+single-event.php
+single-listing.php
+
+-----------------------------------------------------------------------------------------
+Fix: pinpoint was not display on event category page
+-----------------------------------------------------------------------------------------
+functions.php
+
+-----------------------------------------------------------------------------------------
+Changed hook for below and above conetnt
+-----------------------------------------------------------------------------------------
+event-listing-single-content.php
+
+-----------------------------------------------------------------------------------------
+Removed sticky menu
+-----------------------------------------------------------------------------------------
+header.php
+
+-----------------------------------------------------------------------------------------
+Fix: Additional custom post type's detail page not displaying correctly.
+-----------------------------------------------------------------------------------------
+functions.php
+
+-----------------------------------------------------------------------------------------
+Fix: category single map widget not working.
+-----------------------------------------------------------------------------------------
+functions/google_map_listing_widget.php
+
+-----------------------------------------------------------------------------------------
+Added " people " and " all in one map " page template in auto install
+-----------------------------------------------------------------------------------------
+functions/auto_install/auto_install.php
+functions/auto_install/auto_install_data.php
+
+-----------------------------------------------------------------------------------------
+Load different foter in mobile view and admin style.php path correction
+-----------------------------------------------------------------------------------------
+functions/auto_install/auto_install_data.php
+page-templates/full-page-map.php
+
+-----------------------------------------------------------------------------------------
+Fix: Problem with the tab information while editing events
+-----------------------------------------------------------------------------------------
+event-listing-single-content.php
+

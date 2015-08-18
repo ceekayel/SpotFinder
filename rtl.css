@@ -1,0 +1,90 @@
+/*	--------------------------------------------------
+	:: CHILD THEME - LOCATIONS
+	-------------------------------------------------- */
+
+body { direction: rtl; unicode-bidi: embed; }
+
+/* HEADER -------------------------------------------- */
+#sidebar-header,
+#nav-secondary, body .mega-menu { float: right; margin-right: 10px; }
+.primary_menu_wrapper { float: left; }
+#branding { margin: 0 0px 0 20px; }
+#branding hgroup, #branding1 hgroup { margin: 3px 0px 3px 20px; float: right; }
+body #sidebar-header .search_nearby_widget #searchform input[type="submit"] { right: auto; left: 0; padding: 9px 10px 4px; }
+.primary_menu_wrapper .widget-wrap { float: left; }
+
+
+
+/* WIDGET AND SIDEBARS -------------------------------------------- */
+.tevolution-event-manager .off-canvas-wrap #content{float: right;}
+#main .sidebar, .tevolution-event-manager #main .sidebar{float: left;}
+.sidebar.large-3{margin-left: 0; margin-right: 1.2%;}
+body .widget .recent_comments li .review_info { margin-left: 0; margin-right: 72px; }
+.post-left{margin-right: 0; margin-left: 5%;}
+.tmpl_classified_seller .seller-top_wrapper .tmpl-seller-photo{margin-right: 0; margin-left: 8%;}
+
+
+/* LISTINGS -------------------------------------------- */
+.list .post .listing_img, .grid .post .listing_img, .list .post .post_fig, .grid .post .post_fig, .post .property_img { margin-left: 0; }
+body .list .post .entry p:before, body .grid .post .entry p:before { left: auto; right: -6px; }
+.post .entry .entry-details > p, .list .post .entry .phone, .grid .post .entry .phone, .list .hentry .phone, body #loop_event_archive .post .entry p, body #loop_event_taxonomy .post .entry p { padding-left: 0; padding-right: 20px !important; }
+#loop_listing_archive .post .listing_img, #loop_listing_taxonomy .post .listing_img, .user #content .hentry .listing_img, #tmpl-search-results.list .hentry .listing_img, .hfeed .post .listing_img, .archive .hfeed .post .post_fig { float: right; }
+#loop_listing_archive.list .post .listing_img, #loop_listing_taxonomy.list .post .listing_img, .user #content .list .hentry .listing_img, #tmpl-search-results.list .hentry .listing_img, .hfeed .list .post .listing_img, .archive .list .hfeed .post .post_fig { padding: 13px 13px 13px 0px; }
+body .list .post .entry { margin-right: 32%!important; margin-left: 0 !important; }
+body .list .post .rev_pin, body .list .hentry .rev_pin { left: auto; right: 24px; }
+body .grid .post .rev_pin { left: auto; right: 21px; }
+.post .property_img .property-status { left: auto; right: 10px; }
+body #loop_listing_archive .post .listing_img .featured_tag, body #loop_listing_taxonomy .post .listing_img .featured_tag, body #tmpl-search-results.list .hentry .listing_img .featured_tag, body.user #content .hentry .listing_img .featured_tag, body.hfeed .post .listing_img .featured_tag, body.user #content .author_cont div[id*="post"] .listing_img .featured_tag { left: 0 !important; right: auto !important; }
+body #main.home_page_wrapper .wrap > section.white-bg .widget .grid .post .entry, body .supreme_wrapper > .widget[id*="featured_homepage"] .grid .post .entry{text-align: right;}
+.packageblock .pkg-button{left: 15px; right: auto;}
+.packageblock .pkg-button .btn{left: 0;}
+
+
+/* SINGULAR PAGE -------------------------------------------- */
+.map-sidebar { float: right; }
+.breadcrumb-trail, #breadcrumb > div, .breadcrumb > div { float: left; }
+.page-back-link { left: auto; right: 25px; }
+#tmpl-back-link .sf-icon { 
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+	top: 3px;
+	display: inline-block;
+}
+.directory-single-page .hentry .content-img-gallery, .singular-listing .hentry .content-img-gallery { float: left; }
+.directory-single-page .hentry .contact-info { float: right; }
+.entry-header-custom-wrap i, .entry_address i { float: right; margin-right: 0px; margin-left: 5px; }
+.entry_address i { margin-right: 0; margin-left: 10px; }
+body .share_link span { float: right; margin-right: 0; margin-left: 8px; }
+#content .claim-post-wraper > ul > li { margin: 0 0px 8px 6px; float: right; }
+body.directory-single-page .view_counter, body.event-single-page .view_counter { float: left; }
+body .comment-header img.avatar { right: -90px; }
+body .pos_navigation .post_left a:before { left: 5px; top: 5px; position: absolute; }
+body .pos_navigation .post_left a { padding-left: 25px !important; }
+.tevolution-directory .get_direction #from-input, .tevolution-event-manager .get_direction #from-input, .singular-property .get_direction #from-input,
+.tevolution-directory .get_direction a.b_getdirection, .tevolution-event-manager .get_direction a.b_getdirection, .singular-property .get_direction a.b_getdirection { float: right; }
+.tevolution-directory .get_direction a.b_getdirection, .tevolution-event-manager .get_direction a.b_getdirection, .singular-property .get_direction a.b_getdirection { margin: 0 10px 0 0px; }
+#content .peoplelisting li .peopleinfo-wrap .people_info .peoplelink span:before { left: auto; right: auto; }
+section.list[id*="classified"] .entry h2.entry-title, .widget_loop_classified .list div.entry-title h2.entry-title{float: right;}
+body .widget-twocolumn ul > li > a, body .widget-twocolumn ul > li > span{float: right;}
+body .hr_input_radio li{margin-right: 0;}
+.hr_input_radio label input[type='radio']{ margin-left: 10px;}
+.hr_input_radio input[type="radio"]{float: right;}
+.singular-classified .classified_info-right .classified-info p span{min-width: inherit;}
+body.frontend_editor .directory_google_map .map_customizer_wrap #panel, .frontend_editor .map_customizer_wrap #panel{margin-right: 0; top: 0;}
+/* AUTHOR PAGE -------------------------------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
